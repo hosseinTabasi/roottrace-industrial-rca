@@ -1,0 +1,13 @@
+method,top1_mean,top1_std,top3_mean,top3_std,top5_mean,top5_std,mrr_mean,mrr_std
+PCA-SPE contribution,0.44,0.0,0.56,0.0,0.653,0.012,0.551,0.002
+Ablation: no propagation,0.393,0.023,0.493,0.05,0.607,0.023,0.494,0.027
+Forecast-residual ranking,0.36,0.0,0.493,0.042,0.653,0.095,0.489,0.016
+Sensitivity: restart=0.8,0.393,0.023,0.44,0.053,0.587,0.031,0.486,0.022
+PCA-T2 contribution,0.38,0.0,0.54,0.0,0.54,0.0,0.485,0.0
+Sensitivity: restart=0.5,0.38,0.0,0.427,0.031,0.62,0.02,0.481,0.004
+RootTrace (full),0.347,0.012,0.48,0.0,0.667,0.061,0.48,0.01
+Ablation: linear graph,0.387,0.012,0.46,0.02,0.593,0.046,0.473,0.005
+Linear Granger + PageRank,0.187,0.012,0.42,0.035,0.493,0.031,0.356,0.005
+Sensitivity: restart=0.1,0.02,0.0,0.5,0.069,0.667,0.023,0.309,0.01
+Ablation: no counterfactual,0.0,0.0,0.5,0.04,0.66,0.04,0.307,0.01
+Random,0.033,0.023,0.113,0.046,0.213,0.058,0.136,0.029

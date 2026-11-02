@@ -1,0 +1,1801 @@
+seed,fault,case,method,top1,top3,top5,mrr
+0,1,0,Random,0.0,0.0,0.0,0.030303030303030304
+0,1,0,PCA-T2 contribution,0.0,0.0,0.0,0.06666666666666667
+0,1,0,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+0,1,0,Forecast-residual ranking,0.0,0.0,0.0,0.1
+0,1,0,Linear Granger + PageRank,0.0,0.0,0.0,0.037037037037037035
+0,1,0,RootTrace (full),0.0,0.0,1.0,0.25
+0,1,0,Ablation: no counterfactual,0.0,0.0,0.0,0.16666666666666666
+0,1,0,Ablation: no propagation,0.0,0.0,1.0,0.2
+0,1,0,Ablation: linear graph,0.0,0.0,0.0,0.08333333333333333
+0,1,0,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+0,1,0,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+0,1,0,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+0,1,1,Random,0.0,0.0,0.0,0.022222222222222223
+0,1,1,PCA-T2 contribution,0.0,0.0,0.0,0.16666666666666666
+0,1,1,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+0,1,1,Forecast-residual ranking,0.0,0.0,0.0,0.16666666666666666
+0,1,1,Linear Granger + PageRank,0.0,0.0,0.0,0.06666666666666667
+0,1,1,RootTrace (full),0.0,0.0,0.0,0.125
+0,1,1,Ablation: no counterfactual,0.0,0.0,0.0,0.14285714285714285
+0,1,1,Ablation: no propagation,0.0,0.0,0.0,0.14285714285714285
+0,1,1,Ablation: linear graph,0.0,0.0,0.0,0.05555555555555555
+0,1,1,Sensitivity: restart=0.1,0.0,0.0,0.0,0.16666666666666666
+0,1,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1111111111111111
+0,1,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.1
+0,1,2,Random,0.0,1.0,1.0,0.3333333333333333
+0,1,2,PCA-T2 contribution,0.0,0.0,0.0,0.05
+0,1,2,PCA-SPE contribution,0.0,0.0,1.0,0.25
+0,1,2,Forecast-residual ranking,0.0,0.0,0.0,0.0625
+0,1,2,Linear Granger + PageRank,0.0,0.0,0.0,0.034482758620689655
+0,1,2,RootTrace (full),0.0,0.0,0.0,0.125
+0,1,2,Ablation: no counterfactual,0.0,0.0,0.0,0.1
+0,1,2,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+0,1,2,Ablation: linear graph,0.0,0.0,0.0,0.045454545454545456
+0,1,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.16666666666666666
+0,1,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1111111111111111
+0,1,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.09090909090909091
+0,1,3,Random,0.0,0.0,0.0,0.02702702702702703
+0,1,3,PCA-T2 contribution,0.0,1.0,1.0,0.3333333333333333
+0,1,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,1,3,Forecast-residual ranking,0.0,0.0,1.0,0.2
+0,1,3,Linear Granger + PageRank,0.0,0.0,0.0,0.07692307692307693
+0,1,3,RootTrace (full),0.0,0.0,1.0,0.2
+0,1,3,Ablation: no counterfactual,0.0,0.0,1.0,0.2
+0,1,3,Ablation: no propagation,0.0,0.0,1.0,0.25
+0,1,3,Ablation: linear graph,0.0,0.0,0.0,0.125
+0,1,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.16666666666666666
+0,1,3,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+0,1,3,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+0,1,4,Random,1.0,1.0,1.0,1.0
+0,1,4,PCA-T2 contribution,0.0,0.0,0.0,0.125
+0,1,4,PCA-SPE contribution,0.0,1.0,1.0,0.3333333333333333
+0,1,4,Forecast-residual ranking,0.0,0.0,0.0,0.1
+0,1,4,Linear Granger + PageRank,0.0,0.0,0.0,0.04
+0,1,4,RootTrace (full),0.0,0.0,0.0,0.14285714285714285
+0,1,4,Ablation: no counterfactual,0.0,0.0,0.0,0.125
+0,1,4,Ablation: no propagation,0.0,0.0,1.0,0.2
+0,1,4,Ablation: linear graph,0.0,0.0,0.0,0.125
+0,1,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.125
+0,1,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+0,1,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.16666666666666666
+0,2,0,Random,0.0,0.0,0.0,0.037037037037037035
+0,2,0,PCA-T2 contribution,0.0,0.0,0.0,0.05
+0,2,0,PCA-SPE contribution,0.0,0.0,0.0,0.125
+0,2,0,Forecast-residual ranking,0.0,0.0,0.0,0.125
+0,2,0,Linear Granger + PageRank,0.0,0.0,0.0,0.045454545454545456
+0,2,0,RootTrace (full),0.0,0.0,0.0,0.0625
+0,2,0,Ablation: no counterfactual,0.0,0.0,0.0,0.1
+0,2,0,Ablation: no propagation,0.0,0.0,0.0,0.02127659574468085
+0,2,0,Ablation: linear graph,0.0,0.0,0.0,0.02
+0,2,0,Sensitivity: restart=0.1,0.0,0.0,0.0,0.09090909090909091
+0,2,0,Sensitivity: restart=0.5,0.0,0.0,0.0,0.05555555555555555
+0,2,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.030303030303030304
+0,2,1,Random,0.0,0.0,0.0,0.07692307692307693
+0,2,1,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+0,2,1,PCA-SPE contribution,0.0,0.0,0.0,0.125
+0,2,1,Forecast-residual ranking,0.0,0.0,0.0,0.07692307692307693
+0,2,1,Linear Granger + PageRank,0.0,0.0,0.0,0.045454545454545456
+0,2,1,RootTrace (full),0.0,0.0,0.0,0.0625
+0,2,1,Ablation: no counterfactual,0.0,0.0,0.0,0.1111111111111111
+0,2,1,Ablation: no propagation,0.0,0.0,0.0,0.02127659574468085
+0,2,1,Ablation: linear graph,0.0,0.0,0.0,0.0196078431372549
+0,2,1,Sensitivity: restart=0.1,0.0,0.0,0.0,0.09090909090909091
+0,2,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.043478260869565216
+0,2,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.03125
+0,2,2,Random,0.0,0.0,0.0,0.024390243902439025
+0,2,2,PCA-T2 contribution,0.0,0.0,0.0,0.03571428571428571
+0,2,2,PCA-SPE contribution,0.0,0.0,1.0,0.2
+0,2,2,Forecast-residual ranking,0.0,0.0,0.0,0.07692307692307693
+0,2,2,Linear Granger + PageRank,0.0,0.0,0.0,0.043478260869565216
+0,2,2,RootTrace (full),0.0,0.0,0.0,0.05555555555555555
+0,2,2,Ablation: no counterfactual,0.0,0.0,0.0,0.08333333333333333
+0,2,2,Ablation: no propagation,0.0,0.0,0.0,0.023809523809523808
+0,2,2,Ablation: linear graph,0.0,0.0,0.0,0.02127659574468085
+0,2,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.08333333333333333
+0,2,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.05
+0,2,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.03333333333333333
+0,2,3,Random,0.0,1.0,1.0,0.3333333333333333
+0,2,3,PCA-T2 contribution,0.0,0.0,0.0,0.045454545454545456
+0,2,3,PCA-SPE contribution,0.0,0.0,1.0,0.2
+0,2,3,Forecast-residual ranking,0.0,0.0,0.0,0.08333333333333333
+0,2,3,Linear Granger + PageRank,0.0,0.0,0.0,0.045454545454545456
+0,2,3,RootTrace (full),0.0,0.0,0.0,0.058823529411764705
+0,2,3,Ablation: no counterfactual,0.0,0.0,0.0,0.09090909090909091
+0,2,3,Ablation: no propagation,0.0,0.0,0.0,0.022222222222222223
+0,2,3,Ablation: linear graph,0.0,0.0,0.0,0.02
+0,2,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.09090909090909091
+0,2,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.047619047619047616
+0,2,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.037037037037037035
+0,2,4,Random,0.0,0.0,0.0,0.1111111111111111
+0,2,4,PCA-T2 contribution,0.0,0.0,0.0,0.047619047619047616
+0,2,4,PCA-SPE contribution,0.0,0.0,0.0,0.14285714285714285
+0,2,4,Forecast-residual ranking,0.0,0.0,0.0,0.08333333333333333
+0,2,4,Linear Granger + PageRank,0.0,0.0,0.0,0.045454545454545456
+0,2,4,RootTrace (full),0.0,0.0,0.0,0.058823529411764705
+0,2,4,Ablation: no counterfactual,0.0,0.0,0.0,0.08333333333333333
+0,2,4,Ablation: no propagation,0.0,0.0,0.0,0.02631578947368421
+0,2,4,Ablation: linear graph,0.0,0.0,0.0,0.022727272727272728
+0,2,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.07692307692307693
+0,2,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.047619047619047616
+0,2,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.041666666666666664
+0,4,0,Random,0.0,0.0,1.0,0.25
+0,4,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,4,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,4,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,4,0,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+0,4,0,RootTrace (full),1.0,1.0,1.0,1.0
+0,4,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,4,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,4,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,4,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,4,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,4,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,4,1,Random,0.0,1.0,1.0,0.3333333333333333
+0,4,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,4,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,4,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,4,1,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+0,4,1,RootTrace (full),1.0,1.0,1.0,1.0
+0,4,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,4,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,4,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,4,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,4,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,4,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,4,2,Random,0.0,0.0,0.0,0.14285714285714285
+0,4,2,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,4,2,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,4,2,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,4,2,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+0,4,2,RootTrace (full),1.0,1.0,1.0,1.0
+0,4,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,4,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,4,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,4,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,4,2,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,4,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,4,3,Random,0.0,0.0,0.0,0.1111111111111111
+0,4,3,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,4,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,4,3,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,4,3,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+0,4,3,RootTrace (full),1.0,1.0,1.0,1.0
+0,4,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,4,3,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,4,3,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,4,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,4,3,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,4,3,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,4,4,Random,0.0,1.0,1.0,0.5
+0,4,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,4,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,4,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,4,4,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+0,4,4,RootTrace (full),1.0,1.0,1.0,1.0
+0,4,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,4,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,4,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,4,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,4,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,4,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,5,0,Random,0.0,0.0,0.0,0.14285714285714285
+0,5,0,PCA-T2 contribution,0.0,0.0,0.0,0.14285714285714285
+0,5,0,PCA-SPE contribution,0.0,0.0,0.0,0.041666666666666664
+0,5,0,Forecast-residual ranking,0.0,0.0,0.0,0.16666666666666666
+0,5,0,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+0,5,0,RootTrace (full),0.0,0.0,1.0,0.2
+0,5,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,5,0,Ablation: no propagation,0.0,0.0,0.0,0.1
+0,5,0,Ablation: linear graph,0.0,0.0,0.0,0.125
+0,5,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,5,0,Sensitivity: restart=0.5,0.0,0.0,0.0,0.14285714285714285
+0,5,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.08333333333333333
+0,5,1,Random,0.0,0.0,0.0,0.125
+0,5,1,PCA-T2 contribution,0.0,0.0,0.0,0.07692307692307693
+0,5,1,PCA-SPE contribution,0.0,0.0,0.0,0.07692307692307693
+0,5,1,Forecast-residual ranking,0.0,0.0,0.0,0.1
+0,5,1,Linear Granger + PageRank,0.0,0.0,0.0,0.07692307692307693
+0,5,1,RootTrace (full),0.0,1.0,1.0,0.3333333333333333
+0,5,1,Ablation: no counterfactual,0.0,0.0,1.0,0.2
+0,5,1,Ablation: no propagation,0.0,0.0,0.0,0.125
+0,5,1,Ablation: linear graph,0.0,0.0,0.0,0.16666666666666666
+0,5,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,5,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+0,5,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.14285714285714285
+0,5,2,Random,0.0,0.0,0.0,0.07692307692307693
+0,5,2,PCA-T2 contribution,0.0,0.0,0.0,0.03571428571428571
+0,5,2,PCA-SPE contribution,0.0,0.0,0.0,0.1111111111111111
+0,5,2,Forecast-residual ranking,0.0,0.0,0.0,0.08333333333333333
+0,5,2,Linear Granger + PageRank,0.0,0.0,0.0,0.09090909090909091
+0,5,2,RootTrace (full),0.0,0.0,1.0,0.2
+0,5,2,Ablation: no counterfactual,0.0,0.0,0.0,0.1111111111111111
+0,5,2,Ablation: no propagation,0.0,0.0,0.0,0.1
+0,5,2,Ablation: linear graph,0.0,0.0,1.0,0.2
+0,5,2,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+0,5,2,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+0,5,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+0,5,3,Random,0.0,0.0,0.0,0.0196078431372549
+0,5,3,PCA-T2 contribution,0.0,0.0,0.0,0.038461538461538464
+0,5,3,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+0,5,3,Forecast-residual ranking,0.0,0.0,0.0,0.125
+0,5,3,Linear Granger + PageRank,0.0,0.0,0.0,0.05
+0,5,3,RootTrace (full),0.0,0.0,0.0,0.09090909090909091
+0,5,3,Ablation: no counterfactual,0.0,0.0,0.0,0.1
+0,5,3,Ablation: no propagation,0.0,1.0,1.0,0.3333333333333333
+0,5,3,Ablation: linear graph,0.0,0.0,0.0,0.07692307692307693
+0,5,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1
+0,5,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1111111111111111
+0,5,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.16666666666666666
+0,5,4,Random,0.0,0.0,0.0,0.038461538461538464
+0,5,4,PCA-T2 contribution,0.0,0.0,0.0,0.038461538461538464
+0,5,4,PCA-SPE contribution,0.0,1.0,1.0,0.3333333333333333
+0,5,4,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+0,5,4,Linear Granger + PageRank,0.0,0.0,0.0,0.05
+0,5,4,RootTrace (full),0.0,0.0,0.0,0.09090909090909091
+0,5,4,Ablation: no counterfactual,0.0,0.0,0.0,0.125
+0,5,4,Ablation: no propagation,0.0,1.0,1.0,0.3333333333333333
+0,5,4,Ablation: linear graph,0.0,0.0,0.0,0.16666666666666666
+0,5,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.14285714285714285
+0,5,4,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+0,5,4,Sensitivity: restart=0.8,0.0,1.0,1.0,0.3333333333333333
+0,6,0,Random,0.0,0.0,0.0,0.14285714285714285
+0,6,0,PCA-T2 contribution,0.0,1.0,1.0,0.5
+0,6,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,6,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,6,0,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+0,6,0,RootTrace (full),0.0,1.0,1.0,0.5
+0,6,0,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+0,6,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,6,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,6,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,6,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,6,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,6,1,Random,0.0,0.0,0.0,0.029411764705882353
+0,6,1,PCA-T2 contribution,0.0,0.0,0.0,0.1111111111111111
+0,6,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,6,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,6,1,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+0,6,1,RootTrace (full),0.0,1.0,1.0,0.5
+0,6,1,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+0,6,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,6,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,6,1,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+0,6,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,6,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,6,2,Random,1.0,1.0,1.0,1.0
+0,6,2,PCA-T2 contribution,0.0,0.0,0.0,0.05
+0,6,2,PCA-SPE contribution,0.0,1.0,1.0,0.5
+0,6,2,Forecast-residual ranking,0.0,0.0,1.0,0.25
+0,6,2,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,6,2,RootTrace (full),0.0,0.0,1.0,0.25
+0,6,2,Ablation: no counterfactual,0.0,0.0,0.0,0.125
+0,6,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,6,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,6,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1111111111111111
+0,6,2,Sensitivity: restart=0.5,0.0,1.0,1.0,0.5
+0,6,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,6,3,Random,0.0,0.0,1.0,0.2
+0,6,3,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+0,6,3,PCA-SPE contribution,0.0,0.0,1.0,0.25
+0,6,3,Forecast-residual ranking,0.0,0.0,1.0,0.2
+0,6,3,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,6,3,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+0,6,3,Ablation: no counterfactual,0.0,0.0,0.0,0.1111111111111111
+0,6,3,Ablation: no propagation,0.0,1.0,1.0,0.5
+0,6,3,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+0,6,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1
+0,6,3,Sensitivity: restart=0.5,0.0,0.0,1.0,0.25
+0,6,3,Sensitivity: restart=0.8,0.0,1.0,1.0,0.3333333333333333
+0,6,4,Random,0.0,0.0,0.0,0.02127659574468085
+0,6,4,PCA-T2 contribution,0.0,0.0,0.0,0.03333333333333333
+0,6,4,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+0,6,4,Forecast-residual ranking,0.0,0.0,1.0,0.2
+0,6,4,Linear Granger + PageRank,0.0,0.0,1.0,0.25
+0,6,4,RootTrace (full),0.0,0.0,0.0,0.09090909090909091
+0,6,4,Ablation: no counterfactual,0.0,0.0,0.0,0.1
+0,6,4,Ablation: no propagation,0.0,1.0,1.0,0.5
+0,6,4,Ablation: linear graph,0.0,0.0,0.0,0.14285714285714285
+0,6,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.09090909090909091
+0,6,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.14285714285714285
+0,6,4,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+0,7,0,Random,0.0,0.0,1.0,0.25
+0,7,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,7,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,7,0,Forecast-residual ranking,0.0,1.0,1.0,0.5
+0,7,0,Linear Granger + PageRank,0.0,0.0,0.0,0.1111111111111111
+0,7,0,RootTrace (full),1.0,1.0,1.0,1.0
+0,7,0,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+0,7,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,7,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,7,0,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+0,7,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,7,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,7,1,Random,0.0,0.0,0.0,0.02127659574468085
+0,7,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,7,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,7,1,Forecast-residual ranking,0.0,0.0,0.0,0.16666666666666666
+0,7,1,Linear Granger + PageRank,0.0,0.0,0.0,0.05555555555555555
+0,7,1,RootTrace (full),0.0,0.0,0.0,0.1
+0,7,1,Ablation: no counterfactual,0.0,0.0,1.0,0.2
+0,7,1,Ablation: no propagation,0.0,0.0,0.0,0.16666666666666666
+0,7,1,Ablation: linear graph,0.0,0.0,0.0,0.0625
+0,7,1,Sensitivity: restart=0.1,0.0,0.0,0.0,0.125
+0,7,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1
+0,7,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.16666666666666666
+0,7,2,Random,0.0,0.0,0.0,0.058823529411764705
+0,7,2,PCA-T2 contribution,0.0,1.0,1.0,0.5
+0,7,2,PCA-SPE contribution,0.0,1.0,1.0,0.5
+0,7,2,Forecast-residual ranking,0.0,0.0,0.0,0.16666666666666666
+0,7,2,Linear Granger + PageRank,0.0,0.0,0.0,0.05263157894736842
+0,7,2,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+0,7,2,Ablation: no counterfactual,0.0,0.0,1.0,0.2
+0,7,2,Ablation: no propagation,0.0,0.0,1.0,0.25
+0,7,2,Ablation: linear graph,0.0,0.0,0.0,0.14285714285714285
+0,7,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.16666666666666666
+0,7,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+0,7,2,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+0,7,3,Random,0.0,0.0,0.0,0.02564102564102564
+0,7,3,PCA-T2 contribution,0.0,1.0,1.0,0.5
+0,7,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,7,3,Forecast-residual ranking,0.0,1.0,1.0,0.5
+0,7,3,Linear Granger + PageRank,0.0,0.0,1.0,0.25
+0,7,3,RootTrace (full),0.0,0.0,1.0,0.25
+0,7,3,Ablation: no counterfactual,0.0,0.0,1.0,0.2
+0,7,3,Ablation: no propagation,0.0,1.0,1.0,0.5
+0,7,3,Ablation: linear graph,0.0,0.0,1.0,0.25
+0,7,3,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+0,7,3,Sensitivity: restart=0.5,0.0,0.0,1.0,0.25
+0,7,3,Sensitivity: restart=0.8,0.0,1.0,1.0,0.5
+0,7,4,Random,0.0,0.0,0.0,0.047619047619047616
+0,7,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,7,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,7,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,7,4,Linear Granger + PageRank,0.0,1.0,1.0,0.3333333333333333
+0,7,4,RootTrace (full),1.0,1.0,1.0,1.0
+0,7,4,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+0,7,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,7,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,7,4,Sensitivity: restart=0.1,1.0,1.0,1.0,1.0
+0,7,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,7,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,11,0,Random,0.0,0.0,0.0,0.16666666666666666
+0,11,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,11,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,11,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,11,0,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,11,0,RootTrace (full),1.0,1.0,1.0,1.0
+0,11,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,11,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,11,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,11,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,11,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,11,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,11,1,Random,0.0,0.0,0.0,0.125
+0,11,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,11,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,11,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,11,1,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,11,1,RootTrace (full),1.0,1.0,1.0,1.0
+0,11,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,11,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,11,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,11,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,11,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,11,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,11,2,Random,0.0,0.0,1.0,0.2
+0,11,2,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,11,2,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,11,2,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,11,2,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,11,2,RootTrace (full),1.0,1.0,1.0,1.0
+0,11,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,11,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,11,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,11,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,11,2,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,11,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,11,3,Random,0.0,0.0,0.0,0.03333333333333333
+0,11,3,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,11,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,11,3,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,11,3,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,11,3,RootTrace (full),1.0,1.0,1.0,1.0
+0,11,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,11,3,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,11,3,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,11,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,11,3,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,11,3,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,11,4,Random,0.0,0.0,0.0,0.022727272727272728
+0,11,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,11,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,11,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,11,4,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,11,4,RootTrace (full),1.0,1.0,1.0,1.0
+0,11,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,11,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,11,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,11,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,11,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,11,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,12,0,Random,0.0,0.0,0.0,0.125
+0,12,0,PCA-T2 contribution,0.0,1.0,1.0,0.5
+0,12,0,PCA-SPE contribution,0.0,1.0,1.0,0.3333333333333333
+0,12,0,Forecast-residual ranking,0.0,1.0,1.0,0.5
+0,12,0,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+0,12,0,RootTrace (full),0.0,1.0,1.0,0.3333333333333333
+0,12,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,12,0,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+0,12,0,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+0,12,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,12,0,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+0,12,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.1111111111111111
+0,12,1,Random,0.0,0.0,0.0,0.045454545454545456
+0,12,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,12,1,PCA-SPE contribution,0.0,1.0,1.0,0.5
+0,12,1,Forecast-residual ranking,0.0,1.0,1.0,0.5
+0,12,1,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+0,12,1,RootTrace (full),0.0,1.0,1.0,0.3333333333333333
+0,12,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,12,1,Ablation: no propagation,0.0,0.0,0.0,0.07692307692307693
+0,12,1,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+0,12,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,12,1,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+0,12,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+0,12,2,Random,0.0,0.0,0.0,0.04
+0,12,2,PCA-T2 contribution,0.0,1.0,1.0,0.5
+0,12,2,PCA-SPE contribution,0.0,0.0,0.0,0.14285714285714285
+0,12,2,Forecast-residual ranking,0.0,0.0,1.0,0.25
+0,12,2,Linear Granger + PageRank,0.0,0.0,1.0,0.2
+0,12,2,RootTrace (full),0.0,0.0,1.0,0.25
+0,12,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,12,2,Ablation: no propagation,0.0,0.0,0.0,0.058823529411764705
+0,12,2,Ablation: linear graph,0.0,0.0,0.0,0.16666666666666666
+0,12,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,12,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+0,12,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.1111111111111111
+0,12,3,Random,0.0,0.0,0.0,0.08333333333333333
+0,12,3,PCA-T2 contribution,0.0,1.0,1.0,0.5
+0,12,3,PCA-SPE contribution,0.0,0.0,0.0,0.14285714285714285
+0,12,3,Forecast-residual ranking,0.0,0.0,1.0,0.2
+0,12,3,Linear Granger + PageRank,0.0,0.0,0.0,0.16666666666666666
+0,12,3,RootTrace (full),0.0,0.0,1.0,0.25
+0,12,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,12,3,Ablation: no propagation,0.0,0.0,0.0,0.07142857142857142
+0,12,3,Ablation: linear graph,0.0,0.0,1.0,0.25
+0,12,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,12,3,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+0,12,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.1111111111111111
+0,12,4,Random,0.0,0.0,1.0,0.25
+0,12,4,PCA-T2 contribution,0.0,1.0,1.0,0.5
+0,12,4,PCA-SPE contribution,0.0,0.0,1.0,0.25
+0,12,4,Forecast-residual ranking,0.0,0.0,1.0,0.25
+0,12,4,Linear Granger + PageRank,0.0,1.0,1.0,0.3333333333333333
+0,12,4,RootTrace (full),0.0,1.0,1.0,0.5
+0,12,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,12,4,Ablation: no propagation,0.0,0.0,0.0,0.0625
+0,12,4,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+0,12,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,12,4,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+0,12,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.1111111111111111
+0,14,0,Random,0.0,0.0,1.0,0.2
+0,14,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,14,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,14,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,14,0,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,14,0,RootTrace (full),1.0,1.0,1.0,1.0
+0,14,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,14,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,14,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,14,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,14,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,14,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,14,1,Random,1.0,1.0,1.0,1.0
+0,14,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,14,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,14,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,14,1,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,14,1,RootTrace (full),1.0,1.0,1.0,1.0
+0,14,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,14,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,14,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,14,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,14,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,14,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,14,2,Random,0.0,0.0,1.0,0.2
+0,14,2,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,14,2,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,14,2,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,14,2,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,14,2,RootTrace (full),1.0,1.0,1.0,1.0
+0,14,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,14,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,14,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,14,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,14,2,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,14,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,14,3,Random,0.0,0.0,0.0,0.02702702702702703
+0,14,3,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,14,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,14,3,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,14,3,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,14,3,RootTrace (full),1.0,1.0,1.0,1.0
+0,14,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,14,3,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,14,3,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,14,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,14,3,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,14,3,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,14,4,Random,0.0,0.0,0.0,0.04
+0,14,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+0,14,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+0,14,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+0,14,4,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+0,14,4,RootTrace (full),1.0,1.0,1.0,1.0
+0,14,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+0,14,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,14,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+0,14,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+0,14,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+0,14,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,15,0,Random,0.0,0.0,0.0,0.07142857142857142
+0,15,0,PCA-T2 contribution,0.0,0.0,0.0,0.05555555555555555
+0,15,0,PCA-SPE contribution,0.0,0.0,0.0,0.1
+0,15,0,Forecast-residual ranking,0.0,0.0,0.0,0.125
+0,15,0,Linear Granger + PageRank,0.0,0.0,0.0,0.05555555555555555
+0,15,0,RootTrace (full),0.0,0.0,1.0,0.2
+0,15,0,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+0,15,0,Ablation: no propagation,0.0,0.0,0.0,0.14285714285714285
+0,15,0,Ablation: linear graph,0.0,0.0,0.0,0.043478260869565216
+0,15,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,15,0,Sensitivity: restart=0.5,0.0,0.0,0.0,0.08333333333333333
+0,15,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+0,15,1,Random,0.0,0.0,0.0,0.05555555555555555
+0,15,1,PCA-T2 contribution,0.0,0.0,0.0,0.047619047619047616
+0,15,1,PCA-SPE contribution,0.0,0.0,0.0,0.05263157894736842
+0,15,1,Forecast-residual ranking,0.0,0.0,0.0,0.125
+0,15,1,Linear Granger + PageRank,0.0,0.0,0.0,0.05555555555555555
+0,15,1,RootTrace (full),0.0,0.0,1.0,0.2
+0,15,1,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+0,15,1,Ablation: no propagation,0.0,1.0,1.0,0.5
+0,15,1,Ablation: linear graph,0.0,0.0,0.0,0.047619047619047616
+0,15,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,15,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+0,15,1,Sensitivity: restart=0.8,0.0,1.0,1.0,0.5
+0,15,2,Random,0.0,0.0,0.0,0.1
+0,15,2,PCA-T2 contribution,0.0,0.0,0.0,0.07142857142857142
+0,15,2,PCA-SPE contribution,0.0,0.0,0.0,0.1111111111111111
+0,15,2,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+0,15,2,Linear Granger + PageRank,0.0,0.0,0.0,0.05555555555555555
+0,15,2,RootTrace (full),0.0,0.0,1.0,0.25
+0,15,2,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+0,15,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+0,15,2,Ablation: linear graph,0.0,0.0,0.0,0.0625
+0,15,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,15,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.14285714285714285
+0,15,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+0,15,3,Random,0.0,0.0,0.0,0.05555555555555555
+0,15,3,PCA-T2 contribution,0.0,0.0,0.0,0.037037037037037035
+0,15,3,PCA-SPE contribution,0.0,0.0,0.0,0.09090909090909091
+0,15,3,Forecast-residual ranking,0.0,0.0,0.0,0.06666666666666667
+0,15,3,Linear Granger + PageRank,0.0,0.0,0.0,0.05555555555555555
+0,15,3,RootTrace (full),0.0,1.0,1.0,0.3333333333333333
+0,15,3,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+0,15,3,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+0,15,3,Ablation: linear graph,0.0,0.0,0.0,0.07142857142857142
+0,15,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,15,3,Sensitivity: restart=0.5,0.0,1.0,1.0,0.3333333333333333
+0,15,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.09090909090909091
+0,15,4,Random,0.0,0.0,0.0,0.1111111111111111
+0,15,4,PCA-T2 contribution,0.0,0.0,0.0,0.03125
+0,15,4,PCA-SPE contribution,0.0,0.0,0.0,0.08333333333333333
+0,15,4,Forecast-residual ranking,0.0,0.0,0.0,0.07692307692307693
+0,15,4,Linear Granger + PageRank,0.0,0.0,0.0,0.05555555555555555
+0,15,4,RootTrace (full),0.0,0.0,1.0,0.2
+0,15,4,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+0,15,4,Ablation: no propagation,0.0,0.0,0.0,0.0625
+0,15,4,Ablation: linear graph,0.0,0.0,0.0,0.05263157894736842
+0,15,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+0,15,4,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+0,15,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.05263157894736842
+1,1,0,Random,0.0,0.0,0.0,0.027777777777777776
+1,1,0,PCA-T2 contribution,0.0,0.0,0.0,0.06666666666666667
+1,1,0,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+1,1,0,Forecast-residual ranking,0.0,0.0,0.0,0.07692307692307693
+1,1,0,Linear Granger + PageRank,0.0,0.0,0.0,0.037037037037037035
+1,1,0,RootTrace (full),0.0,1.0,1.0,0.3333333333333333
+1,1,0,Ablation: no counterfactual,0.0,0.0,0.0,0.125
+1,1,0,Ablation: no propagation,0.0,0.0,1.0,0.25
+1,1,0,Ablation: linear graph,0.0,0.0,0.0,0.14285714285714285
+1,1,0,Sensitivity: restart=0.1,0.0,0.0,0.0,0.14285714285714285
+1,1,0,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+1,1,0,Sensitivity: restart=0.8,0.0,0.0,1.0,0.25
+1,1,1,Random,0.0,0.0,0.0,0.047619047619047616
+1,1,1,PCA-T2 contribution,0.0,0.0,0.0,0.16666666666666666
+1,1,1,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+1,1,1,Forecast-residual ranking,0.0,0.0,0.0,0.16666666666666666
+1,1,1,Linear Granger + PageRank,0.0,0.0,0.0,0.0625
+1,1,1,RootTrace (full),0.0,0.0,0.0,0.1
+1,1,1,Ablation: no counterfactual,0.0,0.0,0.0,0.125
+1,1,1,Ablation: no propagation,0.0,0.0,0.0,0.14285714285714285
+1,1,1,Ablation: linear graph,0.0,0.0,0.0,0.05555555555555555
+1,1,1,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1111111111111111
+1,1,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1
+1,1,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.09090909090909091
+1,1,2,Random,0.0,0.0,1.0,0.2
+1,1,2,PCA-T2 contribution,0.0,0.0,0.0,0.05
+1,1,2,PCA-SPE contribution,0.0,0.0,1.0,0.25
+1,1,2,Forecast-residual ranking,0.0,0.0,0.0,0.07692307692307693
+1,1,2,Linear Granger + PageRank,0.0,0.0,0.0,0.038461538461538464
+1,1,2,RootTrace (full),0.0,0.0,0.0,0.125
+1,1,2,Ablation: no counterfactual,0.0,0.0,0.0,0.09090909090909091
+1,1,2,Ablation: no propagation,0.0,0.0,0.0,0.1111111111111111
+1,1,2,Ablation: linear graph,0.0,0.0,0.0,0.0625
+1,1,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.125
+1,1,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.125
+1,1,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.09090909090909091
+1,1,3,Random,0.0,0.0,0.0,0.041666666666666664
+1,1,3,PCA-T2 contribution,0.0,1.0,1.0,0.3333333333333333
+1,1,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,1,3,Forecast-residual ranking,0.0,0.0,1.0,0.2
+1,1,3,Linear Granger + PageRank,0.0,0.0,0.0,0.07692307692307693
+1,1,3,RootTrace (full),0.0,0.0,0.0,0.125
+1,1,3,Ablation: no counterfactual,0.0,0.0,0.0,0.14285714285714285
+1,1,3,Ablation: no propagation,0.0,0.0,1.0,0.2
+1,1,3,Ablation: linear graph,0.0,0.0,0.0,0.1
+1,1,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1111111111111111
+1,1,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.125
+1,1,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.16666666666666666
+1,1,4,Random,0.0,1.0,1.0,0.5
+1,1,4,PCA-T2 contribution,0.0,0.0,0.0,0.125
+1,1,4,PCA-SPE contribution,0.0,1.0,1.0,0.3333333333333333
+1,1,4,Forecast-residual ranking,0.0,0.0,0.0,0.1
+1,1,4,Linear Granger + PageRank,0.0,0.0,0.0,0.041666666666666664
+1,1,4,RootTrace (full),0.0,0.0,0.0,0.1
+1,1,4,Ablation: no counterfactual,0.0,0.0,0.0,0.1
+1,1,4,Ablation: no propagation,0.0,0.0,1.0,0.2
+1,1,4,Ablation: linear graph,0.0,0.0,0.0,0.1
+1,1,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1
+1,1,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1111111111111111
+1,1,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+1,2,0,Random,0.0,0.0,0.0,0.09090909090909091
+1,2,0,PCA-T2 contribution,0.0,0.0,0.0,0.05
+1,2,0,PCA-SPE contribution,0.0,0.0,0.0,0.1111111111111111
+1,2,0,Forecast-residual ranking,0.0,0.0,0.0,0.1111111111111111
+1,2,0,Linear Granger + PageRank,0.0,0.0,0.0,0.043478260869565216
+1,2,0,RootTrace (full),0.0,0.0,0.0,0.06666666666666667
+1,2,0,Ablation: no counterfactual,0.0,0.0,0.0,0.1
+1,2,0,Ablation: no propagation,0.0,0.0,0.0,0.029411764705882353
+1,2,0,Ablation: linear graph,0.0,0.0,0.0,0.023809523809523808
+1,2,0,Sensitivity: restart=0.1,0.0,0.0,0.0,0.09090909090909091
+1,2,0,Sensitivity: restart=0.5,0.0,0.0,0.0,0.05
+1,2,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.03225806451612903
+1,2,1,Random,0.0,0.0,0.0,0.024390243902439025
+1,2,1,PCA-T2 contribution,0.0,0.0,0.0,0.041666666666666664
+1,2,1,PCA-SPE contribution,0.0,0.0,0.0,0.125
+1,2,1,Forecast-residual ranking,0.0,0.0,0.0,0.1111111111111111
+1,2,1,Linear Granger + PageRank,0.0,0.0,0.0,0.05
+1,2,1,RootTrace (full),0.0,0.0,0.0,0.06666666666666667
+1,2,1,Ablation: no counterfactual,0.0,0.0,0.0,0.1
+1,2,1,Ablation: no propagation,0.0,0.0,0.0,0.03225806451612903
+1,2,1,Ablation: linear graph,0.0,0.0,0.0,0.025
+1,2,1,Sensitivity: restart=0.1,0.0,0.0,0.0,0.08333333333333333
+1,2,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.047619047619047616
+1,2,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.03225806451612903
+1,2,2,Random,0.0,0.0,1.0,0.2
+1,2,2,PCA-T2 contribution,0.0,0.0,0.0,0.03571428571428571
+1,2,2,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+1,2,2,Forecast-residual ranking,0.0,0.0,0.0,0.07142857142857142
+1,2,2,Linear Granger + PageRank,0.0,0.0,0.0,0.041666666666666664
+1,2,2,RootTrace (full),0.0,0.0,0.0,0.05555555555555555
+1,2,2,Ablation: no counterfactual,0.0,0.0,0.0,0.08333333333333333
+1,2,2,Ablation: no propagation,0.0,0.0,0.0,0.025
+1,2,2,Ablation: linear graph,0.0,0.0,0.0,0.021739130434782608
+1,2,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.09090909090909091
+1,2,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.047619047619047616
+1,2,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.038461538461538464
+1,2,3,Random,0.0,0.0,0.0,0.08333333333333333
+1,2,3,PCA-T2 contribution,0.0,0.0,0.0,0.04
+1,2,3,PCA-SPE contribution,0.0,0.0,1.0,0.2
+1,2,3,Forecast-residual ranking,0.0,0.0,0.0,0.07692307692307693
+1,2,3,Linear Granger + PageRank,0.0,0.0,0.0,0.047619047619047616
+1,2,3,RootTrace (full),0.0,0.0,0.0,0.05555555555555555
+1,2,3,Ablation: no counterfactual,0.0,0.0,0.0,0.08333333333333333
+1,2,3,Ablation: no propagation,0.0,0.0,0.0,0.02127659574468085
+1,2,3,Ablation: linear graph,0.0,0.0,0.0,0.0196078431372549
+1,2,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.09090909090909091
+1,2,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.045454545454545456
+1,2,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.045454545454545456
+1,2,4,Random,0.0,0.0,0.0,0.02564102564102564
+1,2,4,PCA-T2 contribution,0.0,0.0,0.0,0.05555555555555555
+1,2,4,PCA-SPE contribution,0.0,0.0,0.0,0.14285714285714285
+1,2,4,Forecast-residual ranking,0.0,0.0,0.0,0.08333333333333333
+1,2,4,Linear Granger + PageRank,0.0,0.0,0.0,0.045454545454545456
+1,2,4,RootTrace (full),0.0,0.0,0.0,0.05555555555555555
+1,2,4,Ablation: no counterfactual,0.0,0.0,0.0,0.09090909090909091
+1,2,4,Ablation: no propagation,0.0,0.0,0.0,0.021739130434782608
+1,2,4,Ablation: linear graph,0.0,0.0,0.0,0.02
+1,2,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1
+1,2,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.045454545454545456
+1,2,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.047619047619047616
+1,4,0,Random,0.0,0.0,0.0,0.047619047619047616
+1,4,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,4,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,4,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,4,0,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+1,4,0,RootTrace (full),1.0,1.0,1.0,1.0
+1,4,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,4,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,4,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,4,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,4,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,4,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,4,1,Random,0.0,0.0,0.0,0.08333333333333333
+1,4,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,4,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,4,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,4,1,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+1,4,1,RootTrace (full),1.0,1.0,1.0,1.0
+1,4,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,4,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,4,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,4,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,4,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,4,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,4,2,Random,0.0,0.0,0.0,0.14285714285714285
+1,4,2,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,4,2,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,4,2,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,4,2,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+1,4,2,RootTrace (full),1.0,1.0,1.0,1.0
+1,4,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,4,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,4,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,4,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,4,2,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,4,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,4,3,Random,0.0,0.0,0.0,0.08333333333333333
+1,4,3,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,4,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,4,3,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,4,3,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+1,4,3,RootTrace (full),1.0,1.0,1.0,1.0
+1,4,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,4,3,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,4,3,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,4,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,4,3,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,4,3,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,4,4,Random,0.0,0.0,0.0,0.02702702702702703
+1,4,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,4,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,4,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,4,4,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+1,4,4,RootTrace (full),1.0,1.0,1.0,1.0
+1,4,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,4,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,4,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,4,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,4,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,4,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,5,0,Random,0.0,0.0,0.0,0.058823529411764705
+1,5,0,PCA-T2 contribution,0.0,0.0,0.0,0.14285714285714285
+1,5,0,PCA-SPE contribution,0.0,0.0,0.0,0.043478260869565216
+1,5,0,Forecast-residual ranking,0.0,0.0,0.0,0.125
+1,5,0,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+1,5,0,RootTrace (full),0.0,0.0,1.0,0.25
+1,5,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,5,0,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+1,5,0,Ablation: linear graph,0.0,0.0,0.0,0.14285714285714285
+1,5,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+1,5,0,Sensitivity: restart=0.5,0.0,0.0,0.0,0.14285714285714285
+1,5,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.08333333333333333
+1,5,1,Random,0.0,0.0,0.0,0.038461538461538464
+1,5,1,PCA-T2 contribution,0.0,0.0,0.0,0.07692307692307693
+1,5,1,PCA-SPE contribution,0.0,0.0,0.0,0.07692307692307693
+1,5,1,Forecast-residual ranking,0.0,0.0,0.0,0.1
+1,5,1,Linear Granger + PageRank,0.0,0.0,0.0,0.06666666666666667
+1,5,1,RootTrace (full),0.0,0.0,1.0,0.25
+1,5,1,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+1,5,1,Ablation: no propagation,0.0,0.0,0.0,0.16666666666666666
+1,5,1,Ablation: linear graph,0.0,0.0,1.0,0.2
+1,5,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+1,5,1,Sensitivity: restart=0.5,0.0,0.0,1.0,0.25
+1,5,1,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+1,5,2,Random,0.0,0.0,0.0,0.058823529411764705
+1,5,2,PCA-T2 contribution,0.0,0.0,0.0,0.034482758620689655
+1,5,2,PCA-SPE contribution,0.0,0.0,0.0,0.125
+1,5,2,Forecast-residual ranking,0.0,0.0,0.0,0.1111111111111111
+1,5,2,Linear Granger + PageRank,0.0,0.0,0.0,0.06666666666666667
+1,5,2,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+1,5,2,Ablation: no counterfactual,0.0,0.0,0.0,0.125
+1,5,2,Ablation: no propagation,0.0,0.0,0.0,0.14285714285714285
+1,5,2,Ablation: linear graph,0.0,0.0,0.0,0.16666666666666666
+1,5,2,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+1,5,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.14285714285714285
+1,5,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+1,5,3,Random,1.0,1.0,1.0,1.0
+1,5,3,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+1,5,3,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+1,5,3,Forecast-residual ranking,0.0,0.0,0.0,0.16666666666666666
+1,5,3,Linear Granger + PageRank,0.0,0.0,0.0,0.07142857142857142
+1,5,3,RootTrace (full),0.0,0.0,1.0,0.2
+1,5,3,Ablation: no counterfactual,0.0,0.0,0.0,0.125
+1,5,3,Ablation: no propagation,0.0,0.0,1.0,0.25
+1,5,3,Ablation: linear graph,0.0,0.0,1.0,0.2
+1,5,3,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+1,5,3,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+1,5,3,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+1,5,4,Random,0.0,0.0,0.0,0.02857142857142857
+1,5,4,PCA-T2 contribution,0.0,0.0,0.0,0.037037037037037035
+1,5,4,PCA-SPE contribution,0.0,1.0,1.0,0.3333333333333333
+1,5,4,Forecast-residual ranking,0.0,0.0,0.0,0.14285714285714285
+1,5,4,Linear Granger + PageRank,0.0,0.0,0.0,0.07692307692307693
+1,5,4,RootTrace (full),0.0,0.0,1.0,0.2
+1,5,4,Ablation: no counterfactual,0.0,0.0,0.0,0.16666666666666666
+1,5,4,Ablation: no propagation,0.0,0.0,1.0,0.25
+1,5,4,Ablation: linear graph,0.0,0.0,1.0,0.2
+1,5,4,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+1,5,4,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+1,5,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.16666666666666666
+1,6,0,Random,0.0,0.0,0.0,0.16666666666666666
+1,6,0,PCA-T2 contribution,0.0,1.0,1.0,0.5
+1,6,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,6,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,6,0,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+1,6,0,RootTrace (full),1.0,1.0,1.0,1.0
+1,6,0,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+1,6,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,6,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,6,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,6,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,6,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,6,1,Random,0.0,0.0,0.0,0.03333333333333333
+1,6,1,PCA-T2 contribution,0.0,0.0,0.0,0.1111111111111111
+1,6,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,6,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,6,1,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+1,6,1,RootTrace (full),0.0,1.0,1.0,0.5
+1,6,1,Ablation: no counterfactual,0.0,0.0,0.0,0.14285714285714285
+1,6,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,6,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,6,1,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+1,6,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,6,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,6,2,Random,0.0,0.0,0.0,0.024390243902439025
+1,6,2,PCA-T2 contribution,0.0,0.0,0.0,0.05
+1,6,2,PCA-SPE contribution,0.0,1.0,1.0,0.5
+1,6,2,Forecast-residual ranking,0.0,0.0,1.0,0.2
+1,6,2,Linear Granger + PageRank,0.0,0.0,1.0,0.25
+1,6,2,RootTrace (full),0.0,0.0,0.0,0.09090909090909091
+1,6,2,Ablation: no counterfactual,0.0,0.0,0.0,0.09090909090909091
+1,6,2,Ablation: no propagation,0.0,0.0,1.0,0.25
+1,6,2,Ablation: linear graph,0.0,0.0,1.0,0.25
+1,6,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.08333333333333333
+1,6,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.14285714285714285
+1,6,2,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+1,6,3,Random,0.0,0.0,0.0,0.08333333333333333
+1,6,3,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+1,6,3,PCA-SPE contribution,0.0,0.0,1.0,0.25
+1,6,3,Forecast-residual ranking,0.0,0.0,0.0,0.14285714285714285
+1,6,3,Linear Granger + PageRank,0.0,0.0,1.0,0.2
+1,6,3,RootTrace (full),0.0,0.0,0.0,0.07142857142857142
+1,6,3,Ablation: no counterfactual,0.0,0.0,0.0,0.07692307692307693
+1,6,3,Ablation: no propagation,0.0,0.0,1.0,0.2
+1,6,3,Ablation: linear graph,0.0,0.0,0.0,0.09090909090909091
+1,6,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.06666666666666667
+1,6,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.07692307692307693
+1,6,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+1,6,4,Random,0.0,0.0,0.0,0.02564102564102564
+1,6,4,PCA-T2 contribution,0.0,0.0,0.0,0.03333333333333333
+1,6,4,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+1,6,4,Forecast-residual ranking,0.0,0.0,0.0,0.14285714285714285
+1,6,4,Linear Granger + PageRank,0.0,0.0,0.0,0.1111111111111111
+1,6,4,RootTrace (full),0.0,0.0,0.0,0.07142857142857142
+1,6,4,Ablation: no counterfactual,0.0,0.0,0.0,0.08333333333333333
+1,6,4,Ablation: no propagation,0.0,0.0,0.0,0.125
+1,6,4,Ablation: linear graph,0.0,0.0,0.0,0.08333333333333333
+1,6,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.07142857142857142
+1,6,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.07692307692307693
+1,6,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.1
+1,7,0,Random,0.0,0.0,0.0,0.02857142857142857
+1,7,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,7,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,7,0,Forecast-residual ranking,0.0,1.0,1.0,0.5
+1,7,0,Linear Granger + PageRank,0.0,0.0,0.0,0.07692307692307693
+1,7,0,RootTrace (full),1.0,1.0,1.0,1.0
+1,7,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,7,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,7,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,7,0,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+1,7,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,7,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,7,1,Random,0.0,0.0,0.0,0.07692307692307693
+1,7,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,7,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,7,1,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+1,7,1,Linear Granger + PageRank,0.0,0.0,0.0,0.09090909090909091
+1,7,1,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+1,7,1,Ablation: no counterfactual,0.0,0.0,0.0,0.16666666666666666
+1,7,1,Ablation: no propagation,0.0,1.0,1.0,0.3333333333333333
+1,7,1,Ablation: linear graph,0.0,0.0,0.0,0.125
+1,7,1,Sensitivity: restart=0.1,0.0,0.0,0.0,0.125
+1,7,1,Sensitivity: restart=0.5,0.0,1.0,1.0,0.3333333333333333
+1,7,1,Sensitivity: restart=0.8,0.0,1.0,1.0,0.3333333333333333
+1,7,2,Random,0.0,0.0,0.0,0.041666666666666664
+1,7,2,PCA-T2 contribution,0.0,1.0,1.0,0.5
+1,7,2,PCA-SPE contribution,0.0,1.0,1.0,0.5
+1,7,2,Forecast-residual ranking,0.0,0.0,1.0,0.2
+1,7,2,Linear Granger + PageRank,0.0,0.0,0.0,0.05263157894736842
+1,7,2,RootTrace (full),0.0,0.0,0.0,0.14285714285714285
+1,7,2,Ablation: no counterfactual,0.0,0.0,1.0,0.2
+1,7,2,Ablation: no propagation,0.0,1.0,1.0,0.3333333333333333
+1,7,2,Ablation: linear graph,0.0,0.0,0.0,0.14285714285714285
+1,7,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.125
+1,7,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+1,7,2,Sensitivity: restart=0.8,0.0,0.0,1.0,0.25
+1,7,3,Random,0.0,0.0,0.0,0.1
+1,7,3,PCA-T2 contribution,0.0,1.0,1.0,0.5
+1,7,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,7,3,Forecast-residual ranking,0.0,0.0,1.0,0.25
+1,7,3,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+1,7,3,RootTrace (full),0.0,0.0,0.0,0.14285714285714285
+1,7,3,Ablation: no counterfactual,0.0,0.0,0.0,0.16666666666666666
+1,7,3,Ablation: no propagation,0.0,1.0,1.0,0.3333333333333333
+1,7,3,Ablation: linear graph,0.0,0.0,0.0,0.14285714285714285
+1,7,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.125
+1,7,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+1,7,3,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+1,7,4,Random,0.0,1.0,1.0,0.5
+1,7,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,7,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,7,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,7,4,Linear Granger + PageRank,0.0,0.0,0.0,0.125
+1,7,4,RootTrace (full),1.0,1.0,1.0,1.0
+1,7,4,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+1,7,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,7,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,7,4,Sensitivity: restart=0.1,1.0,1.0,1.0,1.0
+1,7,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,7,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,11,0,Random,0.0,0.0,0.0,0.05263157894736842
+1,11,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,11,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,11,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,11,0,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,11,0,RootTrace (full),1.0,1.0,1.0,1.0
+1,11,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,11,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,11,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,11,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,11,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,11,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,11,1,Random,0.0,0.0,0.0,0.125
+1,11,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,11,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,11,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,11,1,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,11,1,RootTrace (full),1.0,1.0,1.0,1.0
+1,11,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,11,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,11,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,11,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,11,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,11,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,11,2,Random,0.0,0.0,0.0,0.041666666666666664
+1,11,2,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,11,2,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,11,2,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,11,2,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,11,2,RootTrace (full),1.0,1.0,1.0,1.0
+1,11,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,11,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,11,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,11,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,11,2,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,11,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,11,3,Random,0.0,0.0,0.0,0.02702702702702703
+1,11,3,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,11,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,11,3,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,11,3,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,11,3,RootTrace (full),1.0,1.0,1.0,1.0
+1,11,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,11,3,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,11,3,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,11,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,11,3,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,11,3,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,11,4,Random,0.0,0.0,1.0,0.25
+1,11,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,11,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,11,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,11,4,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,11,4,RootTrace (full),1.0,1.0,1.0,1.0
+1,11,4,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+1,11,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,11,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,11,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,11,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,11,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,12,0,Random,0.0,0.0,0.0,0.0625
+1,12,0,PCA-T2 contribution,0.0,1.0,1.0,0.5
+1,12,0,PCA-SPE contribution,0.0,1.0,1.0,0.3333333333333333
+1,12,0,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+1,12,0,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+1,12,0,RootTrace (full),0.0,1.0,1.0,0.5
+1,12,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,12,0,Ablation: no propagation,0.0,0.0,0.0,0.08333333333333333
+1,12,0,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+1,12,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,12,0,Sensitivity: restart=0.5,0.0,0.0,1.0,0.25
+1,12,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.14285714285714285
+1,12,1,Random,0.0,0.0,0.0,0.029411764705882353
+1,12,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,12,1,PCA-SPE contribution,0.0,1.0,1.0,0.5
+1,12,1,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+1,12,1,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+1,12,1,RootTrace (full),0.0,1.0,1.0,0.5
+1,12,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,12,1,Ablation: no propagation,0.0,0.0,0.0,0.07692307692307693
+1,12,1,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+1,12,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,12,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+1,12,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.14285714285714285
+1,12,2,Random,0.0,0.0,0.0,0.023809523809523808
+1,12,2,PCA-T2 contribution,0.0,1.0,1.0,0.5
+1,12,2,PCA-SPE contribution,0.0,0.0,0.0,0.14285714285714285
+1,12,2,Forecast-residual ranking,0.0,0.0,1.0,0.25
+1,12,2,Linear Granger + PageRank,0.0,0.0,1.0,0.2
+1,12,2,RootTrace (full),0.0,0.0,1.0,0.2
+1,12,2,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+1,12,2,Ablation: no propagation,0.0,0.0,0.0,0.058823529411764705
+1,12,2,Ablation: linear graph,0.0,0.0,0.0,0.16666666666666666
+1,12,2,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+1,12,2,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+1,12,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.1
+1,12,3,Random,0.0,0.0,0.0,0.08333333333333333
+1,12,3,PCA-T2 contribution,0.0,1.0,1.0,0.5
+1,12,3,PCA-SPE contribution,0.0,0.0,0.0,0.14285714285714285
+1,12,3,Forecast-residual ranking,0.0,0.0,1.0,0.25
+1,12,3,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+1,12,3,RootTrace (full),0.0,1.0,1.0,0.5
+1,12,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,12,3,Ablation: no propagation,0.0,0.0,0.0,0.07142857142857142
+1,12,3,Ablation: linear graph,0.0,0.0,0.0,0.16666666666666666
+1,12,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+1,12,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+1,12,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.1111111111111111
+1,12,4,Random,0.0,0.0,0.0,0.1
+1,12,4,PCA-T2 contribution,0.0,1.0,1.0,0.5
+1,12,4,PCA-SPE contribution,0.0,0.0,1.0,0.25
+1,12,4,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+1,12,4,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,12,4,RootTrace (full),0.0,1.0,1.0,0.5
+1,12,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,12,4,Ablation: no propagation,0.0,0.0,0.0,0.06666666666666667
+1,12,4,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+1,12,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,12,4,Sensitivity: restart=0.5,0.0,0.0,1.0,0.25
+1,12,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+1,14,0,Random,0.0,0.0,0.0,0.045454545454545456
+1,14,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,14,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,14,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,14,0,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,14,0,RootTrace (full),1.0,1.0,1.0,1.0
+1,14,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,14,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,14,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,14,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+1,14,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,14,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,14,1,Random,0.0,0.0,1.0,0.2
+1,14,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,14,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,14,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,14,1,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,14,1,RootTrace (full),1.0,1.0,1.0,1.0
+1,14,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,14,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,14,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,14,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+1,14,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,14,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,14,2,Random,0.0,0.0,1.0,0.25
+1,14,2,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,14,2,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,14,2,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,14,2,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,14,2,RootTrace (full),1.0,1.0,1.0,1.0
+1,14,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,14,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,14,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,14,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,14,2,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,14,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,14,3,Random,0.0,0.0,0.0,0.09090909090909091
+1,14,3,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,14,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,14,3,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,14,3,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,14,3,RootTrace (full),1.0,1.0,1.0,1.0
+1,14,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,14,3,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,14,3,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,14,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+1,14,3,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,14,3,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,14,4,Random,0.0,0.0,1.0,0.2
+1,14,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+1,14,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+1,14,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+1,14,4,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+1,14,4,RootTrace (full),1.0,1.0,1.0,1.0
+1,14,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+1,14,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+1,14,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+1,14,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+1,14,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+1,14,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+1,15,0,Random,0.0,0.0,0.0,0.08333333333333333
+1,15,0,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+1,15,0,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+1,15,0,Forecast-residual ranking,0.0,0.0,0.0,0.14285714285714285
+1,15,0,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+1,15,0,RootTrace (full),0.0,0.0,1.0,0.2
+1,15,0,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+1,15,0,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+1,15,0,Ablation: linear graph,0.0,0.0,1.0,0.2
+1,15,0,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+1,15,0,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+1,15,0,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+1,15,1,Random,0.0,0.0,0.0,0.038461538461538464
+1,15,1,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+1,15,1,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+1,15,1,Forecast-residual ranking,0.0,0.0,0.0,0.14285714285714285
+1,15,1,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+1,15,1,RootTrace (full),0.0,0.0,1.0,0.2
+1,15,1,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+1,15,1,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+1,15,1,Ablation: linear graph,0.0,0.0,1.0,0.2
+1,15,1,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+1,15,1,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+1,15,1,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+1,15,2,Random,0.0,0.0,0.0,0.038461538461538464
+1,15,2,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+1,15,2,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+1,15,2,Forecast-residual ranking,0.0,0.0,0.0,0.14285714285714285
+1,15,2,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+1,15,2,RootTrace (full),0.0,0.0,1.0,0.2
+1,15,2,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+1,15,2,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+1,15,2,Ablation: linear graph,0.0,0.0,1.0,0.2
+1,15,2,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+1,15,2,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+1,15,2,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+1,15,3,Random,0.0,0.0,0.0,0.07692307692307693
+1,15,3,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+1,15,3,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+1,15,3,Forecast-residual ranking,0.0,0.0,0.0,0.14285714285714285
+1,15,3,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+1,15,3,RootTrace (full),0.0,0.0,1.0,0.2
+1,15,3,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+1,15,3,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+1,15,3,Ablation: linear graph,0.0,0.0,1.0,0.2
+1,15,3,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+1,15,3,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+1,15,3,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+1,15,4,Random,0.0,0.0,0.0,0.04
+1,15,4,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+1,15,4,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+1,15,4,Forecast-residual ranking,0.0,0.0,0.0,0.14285714285714285
+1,15,4,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+1,15,4,RootTrace (full),0.0,0.0,1.0,0.2
+1,15,4,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+1,15,4,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+1,15,4,Ablation: linear graph,0.0,0.0,1.0,0.2
+1,15,4,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+1,15,4,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+1,15,4,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+2,1,0,Random,0.0,0.0,0.0,0.06666666666666667
+2,1,0,PCA-T2 contribution,0.0,0.0,0.0,0.06666666666666667
+2,1,0,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+2,1,0,Forecast-residual ranking,0.0,0.0,0.0,0.1111111111111111
+2,1,0,Linear Granger + PageRank,0.0,0.0,0.0,0.038461538461538464
+2,1,0,RootTrace (full),0.0,1.0,1.0,0.3333333333333333
+2,1,0,Ablation: no counterfactual,0.0,0.0,0.0,0.16666666666666666
+2,1,0,Ablation: no propagation,0.0,0.0,1.0,0.25
+2,1,0,Ablation: linear graph,0.0,0.0,0.0,0.1111111111111111
+2,1,0,Sensitivity: restart=0.1,0.0,0.0,0.0,0.16666666666666666
+2,1,0,Sensitivity: restart=0.5,0.0,0.0,1.0,0.25
+2,1,0,Sensitivity: restart=0.8,0.0,0.0,1.0,0.25
+2,1,1,Random,0.0,0.0,0.0,0.045454545454545456
+2,1,1,PCA-T2 contribution,0.0,0.0,0.0,0.16666666666666666
+2,1,1,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+2,1,1,Forecast-residual ranking,0.0,0.0,1.0,0.25
+2,1,1,Linear Granger + PageRank,0.0,0.0,0.0,0.1
+2,1,1,RootTrace (full),0.0,0.0,0.0,0.125
+2,1,1,Ablation: no counterfactual,0.0,0.0,0.0,0.16666666666666666
+2,1,1,Ablation: no propagation,0.0,0.0,0.0,0.1
+2,1,1,Ablation: linear graph,0.0,0.0,0.0,0.043478260869565216
+2,1,1,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1111111111111111
+2,1,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.125
+2,1,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.06666666666666667
+2,1,2,Random,0.0,0.0,0.0,0.1111111111111111
+2,1,2,PCA-T2 contribution,0.0,0.0,0.0,0.05
+2,1,2,PCA-SPE contribution,0.0,0.0,1.0,0.25
+2,1,2,Forecast-residual ranking,0.0,0.0,0.0,0.07142857142857142
+2,1,2,Linear Granger + PageRank,0.0,0.0,0.0,0.03333333333333333
+2,1,2,RootTrace (full),0.0,0.0,0.0,0.14285714285714285
+2,1,2,Ablation: no counterfactual,0.0,0.0,0.0,0.09090909090909091
+2,1,2,Ablation: no propagation,0.0,0.0,0.0,0.125
+2,1,2,Ablation: linear graph,0.0,0.0,0.0,0.08333333333333333
+2,1,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1111111111111111
+2,1,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.125
+2,1,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.14285714285714285
+2,1,3,Random,0.0,0.0,0.0,0.125
+2,1,3,PCA-T2 contribution,0.0,1.0,1.0,0.3333333333333333
+2,1,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,1,3,Forecast-residual ranking,0.0,0.0,1.0,0.25
+2,1,3,Linear Granger + PageRank,0.0,0.0,0.0,0.1111111111111111
+2,1,3,RootTrace (full),0.0,0.0,0.0,0.125
+2,1,3,Ablation: no counterfactual,0.0,0.0,1.0,0.2
+2,1,3,Ablation: no propagation,0.0,0.0,1.0,0.25
+2,1,3,Ablation: linear graph,0.0,0.0,0.0,0.125
+2,1,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1111111111111111
+2,1,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.14285714285714285
+2,1,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.16666666666666666
+2,1,4,Random,0.0,0.0,0.0,0.043478260869565216
+2,1,4,PCA-T2 contribution,0.0,0.0,0.0,0.125
+2,1,4,PCA-SPE contribution,0.0,1.0,1.0,0.3333333333333333
+2,1,4,Forecast-residual ranking,0.0,0.0,0.0,0.125
+2,1,4,Linear Granger + PageRank,0.0,0.0,0.0,0.043478260869565216
+2,1,4,RootTrace (full),0.0,0.0,0.0,0.125
+2,1,4,Ablation: no counterfactual,0.0,0.0,0.0,0.1111111111111111
+2,1,4,Ablation: no propagation,0.0,0.0,1.0,0.25
+2,1,4,Ablation: linear graph,0.0,0.0,0.0,0.14285714285714285
+2,1,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.14285714285714285
+2,1,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.14285714285714285
+2,1,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.14285714285714285
+2,2,0,Random,0.0,0.0,0.0,0.09090909090909091
+2,2,0,PCA-T2 contribution,0.0,0.0,0.0,0.05
+2,2,0,PCA-SPE contribution,0.0,0.0,0.0,0.125
+2,2,0,Forecast-residual ranking,0.0,0.0,0.0,0.125
+2,2,0,Linear Granger + PageRank,0.0,0.0,0.0,0.045454545454545456
+2,2,0,RootTrace (full),0.0,0.0,0.0,0.07692307692307693
+2,2,0,Ablation: no counterfactual,0.0,0.0,0.0,0.1
+2,2,0,Ablation: no propagation,0.0,0.0,0.0,0.02631578947368421
+2,2,0,Ablation: linear graph,0.0,0.0,0.0,0.022222222222222223
+2,2,0,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1
+2,2,0,Sensitivity: restart=0.5,0.0,0.0,0.0,0.058823529411764705
+2,2,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.03571428571428571
+2,2,1,Random,0.0,0.0,0.0,0.043478260869565216
+2,2,1,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+2,2,1,PCA-SPE contribution,0.0,0.0,0.0,0.125
+2,2,1,Forecast-residual ranking,0.0,0.0,0.0,0.08333333333333333
+2,2,1,Linear Granger + PageRank,0.0,0.0,0.0,0.041666666666666664
+2,2,1,RootTrace (full),0.0,0.0,0.0,0.06666666666666667
+2,2,1,Ablation: no counterfactual,0.0,0.0,0.0,0.1
+2,2,1,Ablation: no propagation,0.0,0.0,0.0,0.021739130434782608
+2,2,1,Ablation: linear graph,0.0,0.0,0.0,0.0196078431372549
+2,2,1,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1
+2,2,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.05555555555555555
+2,2,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.04
+2,2,2,Random,0.0,0.0,0.0,0.021739130434782608
+2,2,2,PCA-T2 contribution,0.0,0.0,0.0,0.03571428571428571
+2,2,2,PCA-SPE contribution,0.0,0.0,1.0,0.2
+2,2,2,Forecast-residual ranking,0.0,0.0,0.0,0.08333333333333333
+2,2,2,Linear Granger + PageRank,0.0,0.0,0.0,0.041666666666666664
+2,2,2,RootTrace (full),0.0,0.0,0.0,0.0625
+2,2,2,Ablation: no counterfactual,0.0,0.0,0.0,0.07692307692307693
+2,2,2,Ablation: no propagation,0.0,0.0,0.0,0.030303030303030304
+2,2,2,Ablation: linear graph,0.0,0.0,0.0,0.02564102564102564
+2,2,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1
+2,2,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.05263157894736842
+2,2,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.041666666666666664
+2,2,3,Random,0.0,1.0,1.0,0.3333333333333333
+2,2,3,PCA-T2 contribution,0.0,0.0,0.0,0.045454545454545456
+2,2,3,PCA-SPE contribution,0.0,0.0,1.0,0.2
+2,2,3,Forecast-residual ranking,0.0,0.0,0.0,0.09090909090909091
+2,2,3,Linear Granger + PageRank,0.0,0.0,0.0,0.045454545454545456
+2,2,3,RootTrace (full),0.0,0.0,0.0,0.06666666666666667
+2,2,3,Ablation: no counterfactual,0.0,0.0,0.0,0.08333333333333333
+2,2,3,Ablation: no propagation,0.0,0.0,0.0,0.022222222222222223
+2,2,3,Ablation: linear graph,0.0,0.0,0.0,0.02
+2,2,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1
+2,2,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.05263157894736842
+2,2,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.047619047619047616
+2,2,4,Random,0.0,0.0,0.0,0.029411764705882353
+2,2,4,PCA-T2 contribution,0.0,0.0,0.0,0.047619047619047616
+2,2,4,PCA-SPE contribution,0.0,0.0,0.0,0.14285714285714285
+2,2,4,Forecast-residual ranking,0.0,0.0,0.0,0.08333333333333333
+2,2,4,Linear Granger + PageRank,0.0,0.0,0.0,0.045454545454545456
+2,2,4,RootTrace (full),0.0,0.0,0.0,0.058823529411764705
+2,2,4,Ablation: no counterfactual,0.0,0.0,0.0,0.07142857142857142
+2,2,4,Ablation: no propagation,0.0,0.0,0.0,0.02564102564102564
+2,2,4,Ablation: linear graph,0.0,0.0,0.0,0.022727272727272728
+2,2,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.08333333333333333
+2,2,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.05555555555555555
+2,2,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.05555555555555555
+2,4,0,Random,0.0,0.0,0.0,0.03571428571428571
+2,4,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,4,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,4,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,4,0,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,4,0,RootTrace (full),1.0,1.0,1.0,1.0
+2,4,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,4,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,4,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,4,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,4,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,4,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,4,1,Random,0.0,0.0,1.0,0.2
+2,4,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,4,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,4,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,4,1,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,4,1,RootTrace (full),1.0,1.0,1.0,1.0
+2,4,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,4,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,4,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,4,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,4,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,4,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,4,2,Random,0.0,0.0,0.0,0.08333333333333333
+2,4,2,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,4,2,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,4,2,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,4,2,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,4,2,RootTrace (full),1.0,1.0,1.0,1.0
+2,4,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,4,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,4,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,4,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,4,2,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,4,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,4,3,Random,0.0,0.0,0.0,0.125
+2,4,3,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,4,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,4,3,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,4,3,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,4,3,RootTrace (full),1.0,1.0,1.0,1.0
+2,4,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,4,3,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,4,3,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,4,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,4,3,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,4,3,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,4,4,Random,0.0,1.0,1.0,0.5
+2,4,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,4,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,4,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,4,4,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,4,4,RootTrace (full),1.0,1.0,1.0,1.0
+2,4,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,4,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,4,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,4,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,4,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,4,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,5,0,Random,0.0,0.0,0.0,0.08333333333333333
+2,5,0,PCA-T2 contribution,0.0,0.0,0.0,0.14285714285714285
+2,5,0,PCA-SPE contribution,0.0,0.0,0.0,0.041666666666666664
+2,5,0,Forecast-residual ranking,0.0,0.0,0.0,0.1
+2,5,0,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+2,5,0,RootTrace (full),0.0,0.0,1.0,0.25
+2,5,0,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+2,5,0,Ablation: no propagation,0.0,0.0,0.0,0.14285714285714285
+2,5,0,Ablation: linear graph,0.0,0.0,1.0,0.2
+2,5,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+2,5,0,Sensitivity: restart=0.5,0.0,1.0,1.0,0.3333333333333333
+2,5,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.14285714285714285
+2,5,1,Random,0.0,0.0,0.0,0.09090909090909091
+2,5,1,PCA-T2 contribution,0.0,0.0,0.0,0.07692307692307693
+2,5,1,PCA-SPE contribution,0.0,0.0,0.0,0.07692307692307693
+2,5,1,Forecast-residual ranking,0.0,0.0,0.0,0.1
+2,5,1,Linear Granger + PageRank,0.0,0.0,0.0,0.07692307692307693
+2,5,1,RootTrace (full),0.0,0.0,1.0,0.25
+2,5,1,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+2,5,1,Ablation: no propagation,0.0,0.0,0.0,0.16666666666666666
+2,5,1,Ablation: linear graph,0.0,0.0,1.0,0.25
+2,5,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+2,5,1,Sensitivity: restart=0.5,0.0,0.0,1.0,0.25
+2,5,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.16666666666666666
+2,5,2,Random,0.0,0.0,0.0,0.030303030303030304
+2,5,2,PCA-T2 contribution,0.0,0.0,0.0,0.03571428571428571
+2,5,2,PCA-SPE contribution,0.0,0.0,0.0,0.1111111111111111
+2,5,2,Forecast-residual ranking,0.0,0.0,0.0,0.09090909090909091
+2,5,2,Linear Granger + PageRank,0.0,0.0,0.0,0.1111111111111111
+2,5,2,RootTrace (full),0.0,0.0,1.0,0.2
+2,5,2,Ablation: no counterfactual,0.0,0.0,0.0,0.125
+2,5,2,Ablation: no propagation,0.0,0.0,0.0,0.14285714285714285
+2,5,2,Ablation: linear graph,0.0,0.0,1.0,0.2
+2,5,2,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+2,5,2,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+2,5,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.16666666666666666
+2,5,3,Random,0.0,0.0,0.0,0.03571428571428571
+2,5,3,PCA-T2 contribution,0.0,0.0,0.0,0.038461538461538464
+2,5,3,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+2,5,3,Forecast-residual ranking,0.0,0.0,1.0,0.2
+2,5,3,Linear Granger + PageRank,0.0,0.0,0.0,0.05263157894736842
+2,5,3,RootTrace (full),0.0,0.0,0.0,0.125
+2,5,3,Ablation: no counterfactual,0.0,0.0,0.0,0.1111111111111111
+2,5,3,Ablation: no propagation,0.0,1.0,1.0,0.5
+2,5,3,Ablation: linear graph,0.0,0.0,0.0,0.09090909090909091
+2,5,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.14285714285714285
+2,5,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.09090909090909091
+2,5,3,Sensitivity: restart=0.8,0.0,0.0,1.0,0.25
+2,5,4,Random,0.0,0.0,0.0,0.05
+2,5,4,PCA-T2 contribution,0.0,0.0,0.0,0.038461538461538464
+2,5,4,PCA-SPE contribution,0.0,1.0,1.0,0.3333333333333333
+2,5,4,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+2,5,4,Linear Granger + PageRank,0.0,0.0,0.0,0.05555555555555555
+2,5,4,RootTrace (full),0.0,0.0,0.0,0.125
+2,5,4,Ablation: no counterfactual,0.0,0.0,0.0,0.16666666666666666
+2,5,4,Ablation: no propagation,0.0,1.0,1.0,0.5
+2,5,4,Ablation: linear graph,0.0,0.0,1.0,0.25
+2,5,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.16666666666666666
+2,5,4,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+2,5,4,Sensitivity: restart=0.8,0.0,0.0,1.0,0.25
+2,6,0,Random,0.0,1.0,1.0,0.5
+2,6,0,PCA-T2 contribution,0.0,1.0,1.0,0.5
+2,6,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,6,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,6,0,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,6,0,RootTrace (full),0.0,1.0,1.0,0.5
+2,6,0,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+2,6,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,6,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,6,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,6,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,6,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,6,1,Random,0.0,0.0,0.0,0.1111111111111111
+2,6,1,PCA-T2 contribution,0.0,0.0,0.0,0.1111111111111111
+2,6,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,6,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,6,1,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,6,1,RootTrace (full),0.0,1.0,1.0,0.5
+2,6,1,Ablation: no counterfactual,0.0,0.0,1.0,0.2
+2,6,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,6,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,6,1,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+2,6,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,6,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,6,2,Random,0.0,1.0,1.0,0.3333333333333333
+2,6,2,PCA-T2 contribution,0.0,0.0,0.0,0.05
+2,6,2,PCA-SPE contribution,0.0,1.0,1.0,0.5
+2,6,2,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+2,6,2,Linear Granger + PageRank,0.0,0.0,1.0,0.25
+2,6,2,RootTrace (full),0.0,0.0,1.0,0.2
+2,6,2,Ablation: no counterfactual,0.0,0.0,0.0,0.1111111111111111
+2,6,2,Ablation: no propagation,0.0,1.0,1.0,0.5
+2,6,2,Ablation: linear graph,0.0,0.0,1.0,0.25
+2,6,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.09090909090909091
+2,6,2,Sensitivity: restart=0.5,0.0,1.0,1.0,0.3333333333333333
+2,6,2,Sensitivity: restart=0.8,0.0,1.0,1.0,0.5
+2,6,3,Random,0.0,0.0,0.0,0.02857142857142857
+2,6,3,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+2,6,3,PCA-SPE contribution,0.0,0.0,1.0,0.25
+2,6,3,Forecast-residual ranking,0.0,0.0,1.0,0.25
+2,6,3,Linear Granger + PageRank,0.0,0.0,1.0,0.25
+2,6,3,RootTrace (full),0.0,0.0,0.0,0.14285714285714285
+2,6,3,Ablation: no counterfactual,0.0,0.0,0.0,0.09090909090909091
+2,6,3,Ablation: no propagation,0.0,0.0,1.0,0.25
+2,6,3,Ablation: linear graph,0.0,0.0,0.0,0.16666666666666666
+2,6,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.07142857142857142
+2,6,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+2,6,3,Sensitivity: restart=0.8,0.0,0.0,1.0,0.25
+2,6,4,Random,0.0,0.0,0.0,0.027777777777777776
+2,6,4,PCA-T2 contribution,0.0,0.0,0.0,0.03333333333333333
+2,6,4,PCA-SPE contribution,0.0,0.0,0.0,0.16666666666666666
+2,6,4,Forecast-residual ranking,0.0,0.0,1.0,0.25
+2,6,4,Linear Granger + PageRank,0.0,0.0,0.0,0.16666666666666666
+2,6,4,RootTrace (full),0.0,0.0,0.0,0.07692307692307693
+2,6,4,Ablation: no counterfactual,0.0,0.0,0.0,0.07692307692307693
+2,6,4,Ablation: no propagation,0.0,1.0,1.0,0.3333333333333333
+2,6,4,Ablation: linear graph,0.0,0.0,0.0,0.1
+2,6,4,Sensitivity: restart=0.1,0.0,0.0,0.0,0.06666666666666667
+2,6,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1
+2,6,4,Sensitivity: restart=0.8,0.0,0.0,1.0,0.2
+2,7,0,Random,0.0,0.0,0.0,0.0196078431372549
+2,7,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,7,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,7,0,Forecast-residual ranking,0.0,1.0,1.0,0.5
+2,7,0,Linear Granger + PageRank,0.0,0.0,0.0,0.1
+2,7,0,RootTrace (full),1.0,1.0,1.0,1.0
+2,7,0,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+2,7,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,7,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,7,0,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+2,7,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,7,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,7,1,Random,0.0,0.0,0.0,0.030303030303030304
+2,7,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,7,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,7,1,Forecast-residual ranking,0.0,0.0,1.0,0.2
+2,7,1,Linear Granger + PageRank,0.0,0.0,0.0,0.05555555555555555
+2,7,1,RootTrace (full),0.0,0.0,0.0,0.07692307692307693
+2,7,1,Ablation: no counterfactual,0.0,0.0,0.0,0.125
+2,7,1,Ablation: no propagation,0.0,0.0,1.0,0.2
+2,7,1,Ablation: linear graph,0.0,0.0,0.0,0.06666666666666667
+2,7,1,Sensitivity: restart=0.1,0.0,0.0,0.0,0.125
+2,7,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1111111111111111
+2,7,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.16666666666666666
+2,7,2,Random,0.0,0.0,0.0,0.022222222222222223
+2,7,2,PCA-T2 contribution,0.0,1.0,1.0,0.5
+2,7,2,PCA-SPE contribution,0.0,1.0,1.0,0.5
+2,7,2,Forecast-residual ranking,0.0,0.0,0.0,0.16666666666666666
+2,7,2,Linear Granger + PageRank,0.0,0.0,0.0,0.05
+2,7,2,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+2,7,2,Ablation: no counterfactual,0.0,0.0,0.0,0.16666666666666666
+2,7,2,Ablation: no propagation,0.0,1.0,1.0,0.3333333333333333
+2,7,2,Ablation: linear graph,0.0,0.0,1.0,0.2
+2,7,2,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1111111111111111
+2,7,2,Sensitivity: restart=0.5,0.0,0.0,1.0,0.2
+2,7,2,Sensitivity: restart=0.8,0.0,0.0,1.0,0.25
+2,7,3,Random,0.0,0.0,0.0,0.05263157894736842
+2,7,3,PCA-T2 contribution,0.0,1.0,1.0,0.5
+2,7,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,7,3,Forecast-residual ranking,0.0,1.0,1.0,0.5
+2,7,3,Linear Granger + PageRank,0.0,0.0,1.0,0.25
+2,7,3,RootTrace (full),0.0,0.0,1.0,0.2
+2,7,3,Ablation: no counterfactual,0.0,0.0,1.0,0.2
+2,7,3,Ablation: no propagation,0.0,1.0,1.0,0.5
+2,7,3,Ablation: linear graph,0.0,0.0,1.0,0.25
+2,7,3,Sensitivity: restart=0.1,0.0,0.0,0.0,0.1111111111111111
+2,7,3,Sensitivity: restart=0.5,0.0,0.0,1.0,0.25
+2,7,3,Sensitivity: restart=0.8,0.0,0.0,1.0,0.25
+2,7,4,Random,0.0,0.0,0.0,0.041666666666666664
+2,7,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,7,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,7,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,7,4,Linear Granger + PageRank,0.0,0.0,1.0,0.2
+2,7,4,RootTrace (full),1.0,1.0,1.0,1.0
+2,7,4,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+2,7,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,7,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,7,4,Sensitivity: restart=0.1,1.0,1.0,1.0,1.0
+2,7,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,7,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,11,0,Random,0.0,0.0,0.0,0.058823529411764705
+2,11,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,11,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,11,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,11,0,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,11,0,RootTrace (full),1.0,1.0,1.0,1.0
+2,11,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,11,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,11,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,11,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,11,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,11,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,11,1,Random,0.0,0.0,0.0,0.045454545454545456
+2,11,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,11,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,11,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,11,1,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,11,1,RootTrace (full),1.0,1.0,1.0,1.0
+2,11,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,11,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,11,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,11,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,11,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,11,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,11,2,Random,0.0,0.0,0.0,0.05263157894736842
+2,11,2,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,11,2,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,11,2,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,11,2,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,11,2,RootTrace (full),1.0,1.0,1.0,1.0
+2,11,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,11,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,11,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,11,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,11,2,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,11,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,11,3,Random,0.0,0.0,0.0,0.08333333333333333
+2,11,3,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,11,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,11,3,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,11,3,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,11,3,RootTrace (full),1.0,1.0,1.0,1.0
+2,11,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,11,3,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,11,3,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,11,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,11,3,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,11,3,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,11,4,Random,0.0,0.0,0.0,0.03333333333333333
+2,11,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,11,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,11,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,11,4,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,11,4,RootTrace (full),1.0,1.0,1.0,1.0
+2,11,4,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+2,11,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,11,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,11,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,11,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,11,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,12,0,Random,0.0,0.0,0.0,0.02127659574468085
+2,12,0,PCA-T2 contribution,0.0,1.0,1.0,0.5
+2,12,0,PCA-SPE contribution,0.0,1.0,1.0,0.3333333333333333
+2,12,0,Forecast-residual ranking,0.0,1.0,1.0,0.5
+2,12,0,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,12,0,RootTrace (full),0.0,1.0,1.0,0.3333333333333333
+2,12,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,12,0,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+2,12,0,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+2,12,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+2,12,0,Sensitivity: restart=0.5,0.0,1.0,1.0,0.3333333333333333
+2,12,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+2,12,1,Random,0.0,0.0,0.0,0.027777777777777776
+2,12,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,12,1,PCA-SPE contribution,0.0,1.0,1.0,0.5
+2,12,1,Forecast-residual ranking,0.0,1.0,1.0,0.5
+2,12,1,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,12,1,RootTrace (full),0.0,1.0,1.0,0.3333333333333333
+2,12,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,12,1,Ablation: no propagation,0.0,0.0,0.0,0.08333333333333333
+2,12,1,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+2,12,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+2,12,1,Sensitivity: restart=0.5,0.0,0.0,1.0,0.25
+2,12,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+2,12,2,Random,0.0,0.0,0.0,0.043478260869565216
+2,12,2,PCA-T2 contribution,0.0,1.0,1.0,0.5
+2,12,2,PCA-SPE contribution,0.0,0.0,0.0,0.14285714285714285
+2,12,2,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+2,12,2,Linear Granger + PageRank,0.0,0.0,1.0,0.25
+2,12,2,RootTrace (full),0.0,0.0,1.0,0.25
+2,12,2,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+2,12,2,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+2,12,2,Ablation: linear graph,0.0,0.0,1.0,0.2
+2,12,2,Sensitivity: restart=0.1,0.0,0.0,1.0,0.25
+2,12,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+2,12,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.125
+2,12,3,Random,0.0,0.0,0.0,0.05
+2,12,3,PCA-T2 contribution,0.0,1.0,1.0,0.5
+2,12,3,PCA-SPE contribution,0.0,0.0,0.0,0.14285714285714285
+2,12,3,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+2,12,3,Linear Granger + PageRank,0.0,0.0,0.0,0.14285714285714285
+2,12,3,RootTrace (full),0.0,1.0,1.0,0.3333333333333333
+2,12,3,Ablation: no counterfactual,0.0,1.0,1.0,0.3333333333333333
+2,12,3,Ablation: no propagation,0.0,0.0,0.0,0.07142857142857142
+2,12,3,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+2,12,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.3333333333333333
+2,12,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.16666666666666666
+2,12,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.1
+2,12,4,Random,0.0,0.0,0.0,0.14285714285714285
+2,12,4,PCA-T2 contribution,0.0,1.0,1.0,0.5
+2,12,4,PCA-SPE contribution,0.0,0.0,1.0,0.25
+2,12,4,Forecast-residual ranking,0.0,1.0,1.0,0.3333333333333333
+2,12,4,Linear Granger + PageRank,1.0,1.0,1.0,1.0
+2,12,4,RootTrace (full),0.0,1.0,1.0,0.5
+2,12,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,12,4,Ablation: no propagation,0.0,0.0,1.0,0.2
+2,12,4,Ablation: linear graph,0.0,1.0,1.0,0.3333333333333333
+2,12,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,12,4,Sensitivity: restart=0.5,0.0,1.0,1.0,0.5
+2,12,4,Sensitivity: restart=0.8,0.0,1.0,1.0,0.3333333333333333
+2,14,0,Random,0.0,0.0,0.0,0.03571428571428571
+2,14,0,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,14,0,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,14,0,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,14,0,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,14,0,RootTrace (full),1.0,1.0,1.0,1.0
+2,14,0,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,14,0,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,14,0,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,14,0,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,14,0,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,14,0,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,14,1,Random,1.0,1.0,1.0,1.0
+2,14,1,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,14,1,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,14,1,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,14,1,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,14,1,RootTrace (full),1.0,1.0,1.0,1.0
+2,14,1,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,14,1,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,14,1,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,14,1,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,14,1,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,14,1,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,14,2,Random,0.0,1.0,1.0,0.5
+2,14,2,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,14,2,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,14,2,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,14,2,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,14,2,RootTrace (full),1.0,1.0,1.0,1.0
+2,14,2,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,14,2,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,14,2,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,14,2,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,14,2,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,14,2,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,14,3,Random,0.0,0.0,0.0,0.125
+2,14,3,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,14,3,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,14,3,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,14,3,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,14,3,RootTrace (full),1.0,1.0,1.0,1.0
+2,14,3,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,14,3,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,14,3,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,14,3,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,14,3,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,14,3,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,14,4,Random,0.0,0.0,0.0,0.029411764705882353
+2,14,4,PCA-T2 contribution,1.0,1.0,1.0,1.0
+2,14,4,PCA-SPE contribution,1.0,1.0,1.0,1.0
+2,14,4,Forecast-residual ranking,1.0,1.0,1.0,1.0
+2,14,4,Linear Granger + PageRank,0.0,1.0,1.0,0.5
+2,14,4,RootTrace (full),1.0,1.0,1.0,1.0
+2,14,4,Ablation: no counterfactual,0.0,1.0,1.0,0.5
+2,14,4,Ablation: no propagation,1.0,1.0,1.0,1.0
+2,14,4,Ablation: linear graph,1.0,1.0,1.0,1.0
+2,14,4,Sensitivity: restart=0.1,0.0,1.0,1.0,0.5
+2,14,4,Sensitivity: restart=0.5,1.0,1.0,1.0,1.0
+2,14,4,Sensitivity: restart=0.8,1.0,1.0,1.0,1.0
+2,15,0,Random,0.0,0.0,0.0,0.043478260869565216
+2,15,0,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+2,15,0,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+2,15,0,Forecast-residual ranking,0.0,0.0,1.0,0.2
+2,15,0,Linear Granger + PageRank,0.0,0.0,0.0,0.058823529411764705
+2,15,0,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+2,15,0,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+2,15,0,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+2,15,0,Ablation: linear graph,0.0,0.0,0.0,0.037037037037037035
+2,15,0,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+2,15,0,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1
+2,15,0,Sensitivity: restart=0.8,0.0,0.0,0.0,0.08333333333333333
+2,15,1,Random,0.0,1.0,1.0,0.3333333333333333
+2,15,1,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+2,15,1,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+2,15,1,Forecast-residual ranking,0.0,0.0,1.0,0.2
+2,15,1,Linear Granger + PageRank,0.0,0.0,0.0,0.058823529411764705
+2,15,1,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+2,15,1,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+2,15,1,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+2,15,1,Ablation: linear graph,0.0,0.0,0.0,0.037037037037037035
+2,15,1,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+2,15,1,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1
+2,15,1,Sensitivity: restart=0.8,0.0,0.0,0.0,0.08333333333333333
+2,15,2,Random,0.0,0.0,1.0,0.2
+2,15,2,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+2,15,2,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+2,15,2,Forecast-residual ranking,0.0,0.0,1.0,0.2
+2,15,2,Linear Granger + PageRank,0.0,0.0,0.0,0.058823529411764705
+2,15,2,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+2,15,2,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+2,15,2,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+2,15,2,Ablation: linear graph,0.0,0.0,0.0,0.037037037037037035
+2,15,2,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+2,15,2,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1
+2,15,2,Sensitivity: restart=0.8,0.0,0.0,0.0,0.08333333333333333
+2,15,3,Random,0.0,0.0,0.0,0.030303030303030304
+2,15,3,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+2,15,3,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+2,15,3,Forecast-residual ranking,0.0,0.0,1.0,0.2
+2,15,3,Linear Granger + PageRank,0.0,0.0,0.0,0.058823529411764705
+2,15,3,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+2,15,3,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+2,15,3,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+2,15,3,Ablation: linear graph,0.0,0.0,0.0,0.037037037037037035
+2,15,3,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+2,15,3,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1
+2,15,3,Sensitivity: restart=0.8,0.0,0.0,0.0,0.08333333333333333
+2,15,4,Random,0.0,0.0,0.0,0.030303030303030304
+2,15,4,PCA-T2 contribution,0.0,0.0,0.0,0.043478260869565216
+2,15,4,PCA-SPE contribution,0.0,0.0,0.0,0.058823529411764705
+2,15,4,Forecast-residual ranking,0.0,0.0,1.0,0.2
+2,15,4,Linear Granger + PageRank,0.0,0.0,0.0,0.058823529411764705
+2,15,4,RootTrace (full),0.0,0.0,0.0,0.16666666666666666
+2,15,4,Ablation: no counterfactual,0.0,0.0,1.0,0.25
+2,15,4,Ablation: no propagation,0.0,0.0,0.0,0.09090909090909091
+2,15,4,Ablation: linear graph,0.0,0.0,0.0,0.037037037037037035
+2,15,4,Sensitivity: restart=0.1,0.0,0.0,1.0,0.2
+2,15,4,Sensitivity: restart=0.5,0.0,0.0,0.0,0.1
+2,15,4,Sensitivity: restart=0.8,0.0,0.0,0.0,0.08333333333333333

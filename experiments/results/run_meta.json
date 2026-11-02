@@ -1,0 +1,14 @@
+{
+ "runtime_s": 85.2,
+ "config": {
+  "lags": 5,
+  "sparsity": 5.0,
+  "restart": 0.3,
+  "window": 40,
+  "seeds": [
+   0,
+   1,
+   2
+  ]
+ }
+}

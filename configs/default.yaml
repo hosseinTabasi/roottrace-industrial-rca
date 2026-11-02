@@ -1,0 +1,6 @@
+# RootTrace: five intuitive knobs
+lags: 5            # how many past samples the graph forecaster sees
+sparsity: 5.0      # group-lasso strength: higher = sparser sensor graph (chosen on normal validation MSE, see scripts/select_sparsity.py)
+restart: 0.3       # PageRank restart prob: higher = trust counterfactual scores more, propagate less
+window: 40         # samples after detection used for root-cause analysis
+seeds: [0, 1, 2]

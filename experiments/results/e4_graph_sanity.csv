@@ -1,0 +1,6 @@
+graph,known_pair_recall_top150,nonzero_edges
+NeuralGranger seed 0,0.6666666666666666,467
+NeuralGranger seed 1,0.6666666666666666,499
+NeuralGranger seed 2,0.6666666666666666,470
+Linear Granger (F-test),0.5,71
+Random top-150 (expected),0.10992301549927319,150
